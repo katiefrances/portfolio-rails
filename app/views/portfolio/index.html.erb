@@ -1,0 +1,197 @@
+
+    <!-- Begin Nav -->
+    <!-- Left links on Navbar -->
+    <nav class="navbar fixed-top">
+            <div class="d-flex justify-content-start">
+                <a href="#" class="d-inline-block align-top left-nav">Home</a>
+                <a href="#projects" class="d-inline-block align-top left-nav">Projects</a>
+            </div>
+
+            <!-- Icons on the right to replace the Hamburger -->
+            <ul class="navbar-nav d-flex justify-content-start">
+                <li>
+                    <a class="nav-link" href="http://github.com/katiefrances">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/katie-frances-61b580107/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://medium.com/@katiedev">
+                        <i class="fab fa-medium-m"></i>
+                    </a>
+                </li>
+                <li class="nav-item right-icons">
+                    <a class="nav-link" href="http://instagram.com/coder_grrl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- START PAGE CONTENT -->
+        <div class="container-fluid">
+            
+            <!-- HEADER IMG -->
+            <div class="row one">
+                <div class="col">
+                    <h1 class="display-1 header">Hi, I'm Katie!</h1>
+                </div>
+            </div>
+
+            <!-- ABOUT ME -->
+            <div class="row two">
+                <div class="col-md-3 col-sm-4 col-12 col-lg-2 text-center">
+                    <%= image_tag "me.jpg" %>
+                </div>
+                
+                <div class="col-md-9 col-sm-8 col-12 col-lg-10">
+                    <p class="lead d-flex align-items-left">I'm a student at Coder Academy in Sydney who loves technology, coding &amp; design, &amp; 
+                        I'm also a huge nerd! I love making beautiful, responsive designs &amp; helping people to solve problems!
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- STUDY HISTORY -->
+            <div class="row d-flex align-items-left study text-center">
+                <div class="col-md-12 text-center">
+                    <p class="title">study history</p>
+                </div>
+                <div class="col-6">
+                    <p class="font-weight-bold">
+                        Diploma of Web Development<br> - TAFE Sydney 2015
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p class="font-weight-bold">
+                         Certifcate IV of Web Development <br> - TAFE Sydney 2015
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row work-history ">
+                <div class="col-md-12 text-center">
+                    <p class="title dark">work history</p>
+                </div>
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab"
+                            aria-controls="home">iiNet</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab"
+                            aria-controls="profile">DigiDirect</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab"
+                            aria-controls="messages">Café Belle Fleur</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                            <p>
+                                In this job, I was a billing &amp; technical support CSR in the Sydney call center. I loved learning about how the internet
+                                works from the ISP's perspective & the technology required to run it. It fostered my love of technology &amp; knowing how things work. 
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                            <p>
+                                At DigiDirect I ran the photo lab, which really kicked off my love of analogue photography, film development & darkroom antics.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                            <p>
+                                 At cafe Belle Fleur I was a cafe all rounder, which entailed serving customers, taking orders, waiting on customers,
+                                 making coffee &amp; working closely with other staff.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+                <!-- PROJECTS -->
+            <div class="row three text-center" id="projects">
+                    <div class="col-md-12 ">
+                        <p class="title">projects</p>
+                    </div>
+                <div class="col-md-6 gallery-container">
+                    <%# <img src="img/bowie-site.jpg" alt="David Bowie Site" class="image" > %>
+
+                    <%= image_tag "bowie-site.jpg" %>
+                    <div class="middle">
+                        <div class="text">
+                            <a href="https://codepen.io/katiefrances/pen/eEjQNN" alt="https://codepen.io/katiefrances/pen/eEjQNN"><i class="fab fa-free-code-camp"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                
+                <div class="col-md-6 gallery-container">
+                
+                    <%= image_tag "doggo-app.jpg" %>
+
+                    <div class="middle">
+                        <div class="text">
+                            <a href="https://github.com/katiefrances/doggo-quiz-final" alt="https://github.com/katiefrances/doggo-quiz-final"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- LANGUAGE ICONS -->
+            <div class="row languages-cont">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <i class="icon-html5-alt"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="icon-css3"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="icon-javascript"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="icon-ruby"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="icon-ruby-on-rails"></i>
+                    </li>
+                </ul>
+            </div>
+      
+
+            </div> <!-- / Container Fluid -->
+            
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <p class="credit">&copy;&nbsp;Katie&nbsp;Frances&nbsp;2018</p>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <ul class="list-group">
+                                <li>
+                                    <a href="http://github.com/katiefrances" target="_blank"><i class="fab fa-github" alt="http://github.com/katiefrances"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/katie-frances-61b580107/" target="_blank" alt="https://www.linkedin.com/in/katie-frances-61b580107/"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://twitter.com/loveribs" target="_blank" alt="http://twitter.com/loveribs"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://medium.com/@katiedev" target="_blank" alt="http://medium.com/@katiedev"><i class="fab fa-medium-m"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://instagram.com/coder_grrl" target="_blank" alt="http://instagram.com/coder_grrl"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
