@@ -10,12 +10,12 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
-  *= require font-awesome
  */
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
-@import "font-awesome";
+// @import "font-awesome";
+// @import "font-awesome-sprockets";
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 
@@ -323,19 +323,18 @@ a:hover {
     .projects{
         font-size: 12px;
     }
-
 }
 
 .title.dark {
     color: #222;
-        font-size: 200%;
+    font-size: 200%;
 }
-
 
 /* Language Icons */
 .languages-cont {
     background-color: #02acae;    
-    font-size: 180%;
+    color: #222;
+    font-size: 280%;
     display: inline-block;
     display: flex;
     align-items: center;
