@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # Bootstrap
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
-gem "font-awesome-sass"
+# gem "font-awesome-sass"
 
 
 group :development, :test do
